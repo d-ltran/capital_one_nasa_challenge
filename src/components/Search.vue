@@ -56,7 +56,7 @@ export default {
       });
     },
     meta: function() {
-      alert("Metadata=...");
+      alert("I attempted to fetch metadata however, my code was not functioning. So I decided to instead display a short message instead of having a broken interface.");
     }
   }
 
