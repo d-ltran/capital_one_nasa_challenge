@@ -5,10 +5,10 @@
       <div class="search">
         <h1 class="title has-text-centered">Nasa Search</h1>
         <div class="box">
-          <h2>Type In Your Search Term</h2>
+          <h2>Type In A Search Term To View Nasa Images</h2>
           <form v-on:submit.prevent="getResult(query,start_date, end_date)">
             <!-- <form v-on:submit.prevent="getResult(query)"> -->
-            <input type="text" v-model="query" placeholder="Type in your search" />
+            <input type="text" v-model="query" placeholder="Search Term" />
             <input type="text" v-model="start_date" placeholder="Enter start year" />
             <input type="text" v-model="end_date" placeholder="Enter end year" />
             <button v-on:click="getResult(query, start_date, end_date)"> Submit</button>
